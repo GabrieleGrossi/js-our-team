@@ -9,7 +9,7 @@ MILESTONE 2:
 Stampare le stesse informazioni su DOM sottoforma di stringhe
 */
 
-//Wayne Barnett     ounder & CEO      wayne-barnett-founder-ceo.jpg
+//Wayne Barnett    Founder & CEO      wayne-barnett-founder-ceo.jpg
 
 //Angela Caroll     Chief Editor      angela-caroll-chief-editor.jpg
 
@@ -21,3 +21,35 @@ Stampare le stesse informazioni su DOM sottoforma di stringhe
 
 //Barbara Ramos     Graphic Designer  barbara-ramos-graphic-designer.jpg
 
+const members = [
+    {
+        name:'Wayne Barnett',
+        role: 'Founder & Ceo',
+        photo: 'wayne-barnett-founder-ceo.jpg'
+    },
+    {
+        name:'Angela Carrol',
+        role: 'Chief Editor',
+        photo: 'angela-caroll-chief-editor.jpg'
+    },
+    {
+        name:'Walter Gordon',
+        role: 'Office Manager',
+        photo: 'walter-gordon-office-manager.jpg'
+    },
+    {
+        name:'Angela Lopez',
+        role: 'Social Media Manager',
+        photo: 'angela-lopez-social-media-manager.jpg'
+    },
+    {
+        name:'Scott Estrada',
+        role: 'Developer',
+        photo: 'scott-estrada-developer.jpg'
+    },
+    {
+        name:'Barbara Ramos',
+        role: 'Graphic Designer',
+        photo: 'barbara-ramos-graphic-designer.jpg'
+    }
+]
