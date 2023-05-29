@@ -53,3 +53,20 @@ const members = [
         photo: 'barbara-ramos-graphic-designer.jpg'
     }
 ]
+const container= document.getElementById("output")
+
+/*for (let key in members){
+    const element=document.createElement('p');
+    element.textContent = key + ':' + members[key];
+    container.appendChild(element);
+    
+};
+*/
+
+for (let i = 0; i < members.length; i++) {
+    const member = members[i];
+    
+    const memberInfo = document.createElement("p");
+    memberInfo.textContent = "Nome: " + members.name + ", Ruolo: " + members.role + ", Foto: " + members.photo;
+    container.appendChild(memberInfo);
+  }
