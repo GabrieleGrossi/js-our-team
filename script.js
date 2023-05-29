@@ -69,4 +69,5 @@ for (let i = 0; i < members.length; i++) {
     const memberInfo = document.createElement("p");
     memberInfo.textContent = "Nome: " + members.name + ", Ruolo: " + members.role + ", Foto: " + members.photo;
     container.appendChild(memberInfo);
+    console.log(members);
   }
